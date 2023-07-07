@@ -22,3 +22,10 @@ div {
   border-radius: 25px;
   margin: 10px;
 }
+
+a {
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
