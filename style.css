@@ -1,11 +1,11 @@
 * {
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
   font-size: 50px;
   font-family: "Verdana";
   text-align: center;
   position: relative;
-  padding: 0px;
-  margin: 0px;
 }
 
 body {
@@ -16,8 +16,7 @@ body {
 
 
 button,
-div,
-a {
+div {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   margin: 10px;
@@ -40,4 +39,6 @@ a {
 a {
   text-decoration: none;
   color: black;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
