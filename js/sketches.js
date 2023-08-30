@@ -1,7 +1,7 @@
 function sketchesLoad(){
     fetch("/OPUserData.json")
         .then( (Response) => {Response.json()} )
-        .then( formatSketches(json) )
+        .then( (json) => {formatSketches(json)} )
 }
 
 function formatSketches(json) {
