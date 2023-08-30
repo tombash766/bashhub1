@@ -45,6 +45,10 @@ a {
   display: inline-block;
 }
 
+.stdHalfCol.sketch{
+  height:200px;
+}
+
 #galleryContainer{
   border-radius: 35px;
 }
