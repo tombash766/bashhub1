@@ -64,7 +64,15 @@ a {
 }
 
 .stdHalfCol.sketch{
-  height:400px;
+  width:0px;
+  height:auto;
+}
+
+#sketchesContainer{
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit,minmax(max(40%,280px),1fr));
+  
 }
 
 #galleryContainer{
