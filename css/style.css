@@ -38,7 +38,7 @@ a {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
 }
 
-.homePageLink{
+.stdHalfCol{
   vertical-align: top;
   height: 400px; 
   width: calc(50% - 40px); 
