@@ -13,6 +13,7 @@ function sketchesLoad(){
                 let newImg = document.createElement("img");
                 newImg.setAttribute("src", "https://openprocessing-usercontent.s3.amazonaws.com/thumbnails/visualThumbnail" + currentSketch.visualID + "@2x.jpg");
                 newImg.setAttribute("width", "200px");
+                newImg.className = "sketchThumbnail"
                 newDiv.appendChild(newImg);
                 newA.appendChild(newDiv);
                 c.appendChild(newA);

@@ -34,6 +34,14 @@ a {
   margin: 10px;
 }
 
+.sketchThumbnail {
+  margin: 30px;
+  border-radius: 30px;
+  color: rgb(0,100,100);
+  outline: solid;
+  outline-width: 5px;
+}
+
 .wholePageContainer{
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
 }
@@ -46,7 +54,7 @@ a {
 }
 
 .stdHalfCol.sketch{
-  height:200px;
+  height:400px;
 }
 
 #galleryContainer{
