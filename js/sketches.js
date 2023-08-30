@@ -1,10 +1,10 @@
 function sketchesLoad(){
     fetch("/OPUserData.json")
         .then( (Response) => {Response.json()} )
-        .then( (json) => {formatSketches(json)} )
+        .then( (json) => {formatSketches} )
 }
 
-function formatSketches(json) {
+const formatSketches = function(json) {
     let sketches = json.sketches;
     let c = document.getElementById("sketchesContainer");
     for (let i = 0; i < sketches.length; i++) {
