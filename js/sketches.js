@@ -1,5 +1,5 @@
 function sketchesLoad(){
-    varjsonObj = JSON.parse({"sketches": [
+    var jsonObj = JSON.parse({"sketches": [
         {
                 "visualID": "1241579",
                 "title": "lissajouscurvegenerator",
