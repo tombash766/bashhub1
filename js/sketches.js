@@ -6,7 +6,7 @@ function sketchesLoad(){
             for (let i = 0; i < sketches.length; i++) {
                 let currentSketch = sketches[i];
                 let newA = document.createElement("a");
-                newA.setAttribute("href", "https://openprocessing.org/sketch/" + str(currentSketch.visualID));
+                newA.setAttribute("href", "https://openprocessing.org/sketch/" + currentSketch.visualID);
                 let newDiv = document.createElement("div");
                 newDiv.setAttribute("class", "stdHalfCol sketch");
                 newDiv.innerText = currentSketch.title;
