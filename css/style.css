@@ -40,9 +40,14 @@ a {
 
 .stdHalfCol{
   vertical-align: top;
+  text-align: left;
   height: 400px; 
-  width: calc(50% - 40px); 
+  width: calc(50% - 40px);  
   display: inline-block;
+}
+
+.stdHalfCol.paper{
+  height:600px
 }
 
 #galleryContainer{
