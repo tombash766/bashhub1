@@ -10,6 +10,10 @@ function sketchesLoad(){
                 let newDiv = document.createElement("div");
                 newDiv.setAttribute("class", "stdHalfCol sketch");
                 newDiv.innerText = currentSketch.title;
+                let newImg = document.createElement("img");
+                newImg.setAttribute("src", "https://openprocessing-usercontent.s3.amazonaws.com/thumbnails/visualThumbnail" + currentSketch.visualID + "@2x.jpg");
+                newImg.setAttribute("width", "200px");
+                newDiv.appendChild(newImg);
                 newA.appendChild(newDiv);
                 c.appendChild(newA);
             } 
