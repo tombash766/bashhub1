@@ -9,11 +9,13 @@ function sketchesLoad(){
                 newA.setAttribute("href", "https://openprocessing.org/sketch/" + currentSketch.visualID);
                 let newDiv = document.createElement("div");
                 newDiv.setAttribute("class", "stdHalfCol sketch");
-                newDiv.innerText = currentSketch.title;
+                let newSpan = document.createElement("span");
+                newSpan.innerText = currentSketch.title;
                 let newImg = document.createElement("img");
                 newImg.setAttribute("src", "https://openprocessing-usercontent.s3.amazonaws.com/thumbnails/visualThumbnail" + currentSketch.visualID + "@2x.jpg");
                 newImg.setAttribute("width", "200px");
-                newImg.className = "sketchThumbnail"
+                newImg.className = "sketchThumbnail";
+                newDiv.appendChild(newSpan);
                 newDiv.appendChild(newImg);
                 newA.appendChild(newDiv);
                 c.appendChild(newA);
