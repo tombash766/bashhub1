@@ -1,5 +1,6 @@
 function sketchesLoad(){
-    fetch("/OPUserData.json").then( (Response) => Response.json() ).then( (json) => {let sketches = json.sketches} )
+    fetch("/OPUserData.json").then( (Response) => Response.json() ).then( (json) => {var sketches = json.sketches} )
+    console.log(json)
     let c = document.getElementById("sketchesContainer");
     for (let i = 0; i < sketches.length; i++) {
         let currentSketch = sketches[i];
