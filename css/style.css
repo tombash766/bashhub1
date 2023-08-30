@@ -31,6 +31,13 @@ a {
   border-radius: 10px;
 }
 
+.invisidiv {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  visibility: hidden;
+}
+
 .galleryItem {
   border-radius: 25px;
   margin: 10px;
