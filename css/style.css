@@ -35,7 +35,8 @@ a {
   border: 0px;
   margin: 0px;
   padding: 0px;
-  visibility: hidden;
+  background-color: rgba(0,0,0,0);
+  border-radius: 0px;
 }
 
 .galleryItem {
