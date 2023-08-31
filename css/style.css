@@ -4,7 +4,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-size: 50px;
+  font-size: 30px;
   font-family: "Jost";
   text-align: center;
   position: relative;
@@ -45,11 +45,15 @@ a {
 }
 
 .sketchThumbnail {
+  position: absolute;
   margin: 30px;
-  border-radius: 30px;
   color: rgb(0,100,100);
   outline: solid;
   outline-width: 5px;
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
+  z-index: -1;
 }
 
 .wholePageContainer{
@@ -61,22 +65,25 @@ a {
   height: 400px; 
   width: calc(50% - 40px); 
   display: inline-block;
+  background-color:transparent
 }
 
 .stdHalfCol.sketch{
-  width:0px;
-  height:auto;
+  width:auto;
+  height:400px;
+  overflow: hidden;
+  display: flex;
+  flex-direction:column-reverse;
+  align-items: center;
+  justify-content: center;
 }
 
 #sketchesContainer{
   display: grid;
   gap: 1em;
-  grid-template-columns: repeat(auto-fit,minmax(max(40%,280px),1fr));
-  
+  grid-template-columns: repeat(auto-fit,minmax(max(0%,280px),1fr));
 }
 
 #galleryContainer{
   border-radius: 35px;
 }
-
-

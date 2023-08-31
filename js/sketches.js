@@ -15,8 +15,8 @@ function sketchesLoad(){
                 newImg.setAttribute("src", "https://openprocessing-usercontent.s3.amazonaws.com/thumbnails/visualThumbnail" + currentSketch.visualID + "@2x.jpg");
                 newImg.setAttribute("width", "200px");
                 newImg.className = "sketchThumbnail";
-                newDiv.appendChild(newSpan);
                 newDiv.appendChild(newImg);
+                newDiv.appendChild(newSpan);
                 newA.appendChild(newDiv);
                 c.appendChild(newA);
             } 
