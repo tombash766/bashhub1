@@ -228,7 +228,7 @@
         },
         {
             "visualID": "1917131",
-            "title": "ar[c\/t]",
+            "title": "arc art",
             "isPjs": "2",
             "active": "1",
             "isDraft": "0",
@@ -452,21 +452,6 @@
             "numberOfComments": "0"
         },
         {
-            "visualID": "1957522",
-            "title": "grap",
-            "isPjs": "2",
-            "active": "1",
-            "isDraft": "0",
-            "isPrivate": "0",
-            "pinnedOn": null,
-            "thumbnailUpdatedOn": "2023-06-18 13:30:04",
-            "parentID": null,
-            "isTutorial": "0",
-            "numberOfViews": "11",
-            "numberOfHearts": "0",
-            "numberOfComments": "0"
-        },
-        {
             "visualID": "1956086",
             "title": "gas",
             "isPjs": "2",
@@ -482,21 +467,6 @@
             "numberOfComments": "0"
         },
         {
-            "visualID": "1935753",
-            "title": "Djarikepas",
-            "isPjs": "2",
-            "active": "1",
-            "isDraft": "0",
-            "isPrivate": "0",
-            "pinnedOn": null,
-            "thumbnailUpdatedOn": "2023-05-22 14:39:26",
-            "parentID": null,
-            "isTutorial": "0",
-            "numberOfViews": "20",
-            "numberOfHearts": "0",
-            "numberOfComments": "0"
-        },
-        {
             "visualID": "1931642",
             "title": "harmony",
             "isPjs": "2",
@@ -508,21 +478,6 @@
             "parentID": null,
             "isTutorial": "0",
             "numberOfViews": "4",
-            "numberOfHearts": "0",
-            "numberOfComments": "0"
-        },
-        {
-            "visualID": "1910207",
-            "title": "website",
-            "isPjs": "3",
-            "active": "1",
-            "isDraft": "0",
-            "isPrivate": "0",
-            "pinnedOn": null,
-            "thumbnailUpdatedOn": "2023-04-26 07:25:17",
-            "parentID": null,
-            "isTutorial": "0",
-            "numberOfViews": "10",
             "numberOfHearts": "0",
             "numberOfComments": "0"
         },
@@ -692,21 +647,6 @@
             "numberOfComments": "0"
         },
         {
-            "visualID": "1649877",
-            "title": "uno [WIP]",
-            "isPjs": "2",
-            "active": "1",
-            "isDraft": "0",
-            "isPrivate": "0",
-            "pinnedOn": null,
-            "thumbnailUpdatedOn": "2022-09-16 10:02:16",
-            "parentID": null,
-            "isTutorial": "0",
-            "numberOfViews": "6",
-            "numberOfHearts": "0",
-            "numberOfComments": "0"
-        },
-        {
             "visualID": "1636063",
             "title": "Ray marching [WIP]",
             "isPjs": "2",
@@ -767,21 +707,6 @@
             "numberOfComments": "0"
         },
         {
-            "visualID": "1507398",
-            "title": "GLSL blank",
-            "isPjs": "2",
-            "active": "1",
-            "isDraft": "0",
-            "isPrivate": "0",
-            "pinnedOn": null,
-            "thumbnailUpdatedOn": "2022-03-07 08:37:13",
-            "parentID": null,
-            "isTutorial": "0",
-            "numberOfViews": "12",
-            "numberOfHearts": "0",
-            "numberOfComments": "0"
-        },
-        {
             "visualID": "1506701",
             "title": "amplitude",
             "isPjs": "2",
@@ -809,21 +734,6 @@
             "isTutorial": "0",
             "numberOfViews": "40",
             "numberOfHearts": "2",
-            "numberOfComments": "0"
-        },
-        {
-            "visualID": "1394047",
-            "title": "classification neural net",
-            "isPjs": "2",
-            "active": "1",
-            "isDraft": "0",
-            "isPrivate": "0",
-            "pinnedOn": null,
-            "thumbnailUpdatedOn": "2021-12-11 07:47:41",
-            "parentID": null,
-            "isTutorial": "0",
-            "numberOfViews": "14",
-            "numberOfHearts": "1",
             "numberOfComments": "0"
         },
         {
