@@ -98,6 +98,11 @@ a {
   border:4px double #beffe4
 }
 
+.backBtn {
+  padding: 10px;
+  background-color: var(--accentcol);
+}
+
 #sketchesContainer{
   display: grid;
   gap: 20px;
