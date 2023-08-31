@@ -3,7 +3,7 @@
 :root
 {
     --maincol: #006464;
-    --accentcol: #004646;
+    --accentcol: #8080804d;
     --textmain: #beffe4;
     --textsub: #beffe4;
 }
@@ -72,7 +72,7 @@ a {
 }
 
 .wholePageContainer{
-  background-color: rgba(0.5,0.5,0.5,0.3);
+  background-color: var(--accentcol)
   margin: 20px;
   padding: 10px;
 }
@@ -82,7 +82,7 @@ a {
   height: 400px; 
   width: calc(50% - 40px); 
   display: inline-block;
-  background-color:transparent
+  background-color:var(--accentcol)
 }
 
 .stdHalfCol.sketch{
