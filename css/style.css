@@ -16,6 +16,8 @@
   font-family: "Jost";
   text-align: center;
   position: relative;
+  border: var(--textmain);
+  color: var(--textmain);
 }
 
 body {
