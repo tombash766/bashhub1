@@ -3,7 +3,7 @@
 :root
 {
     --maincol: #006464;
-    --accentcol: #8080804d;
+    --accentcol: rgba(0.5,0.5,0.5,0.3);
     --textmain: #beffe4;
     --textsub: #beffe4;
 }
@@ -72,12 +72,14 @@ a {
 }
 
 .wholePageContainer{
-  background-color: var(--accentcol)
+  background-color: var(--accentcol);
   margin: 20px;
   padding: 10px;
 }
 
 .stdHalfCol{
+  margin: 10px;
+  padding: 20px;
   vertical-align: top;
   height: 400px; 
   width: calc(50% - 40px); 
