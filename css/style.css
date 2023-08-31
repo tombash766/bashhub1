@@ -100,11 +100,16 @@ a {
 
 .backBtn {
   padding: 10px;
+  margin: 0px;
+  width: fit-content;
+  height:auto;
   background-color: var(--accentcol);
+  display: inline-block;
 }
 
 #sketchesContainer{
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit,minmax(max(0%,280px),1fr));
+  margin: 10px;
 }
