@@ -2,10 +2,10 @@
 
 :root
 {
-    --maincol: rgb(0,100,100);
-    --accentcol: #04090f;
-    --textmain: #e9e9e9;
-    --textsub: #8b8b8b;
+    --maincol: #006464;
+    --accentcol: #004646;
+    --textmain: #beffe4;
+    --textsub: #beffe4;
 }
 
 * {
@@ -19,13 +19,13 @@
 }
 
 body {
-  background-color: rgb(0, 100, 100);
+  background-color: var(--maincol);
   padding: 0px;
 }
 
 h1 {
   font-size: 100px;
-  color: #beffe4;
+  color: var(--textmain);
 }
 
 button,
@@ -38,7 +38,7 @@ div {
 
 a {
   text-decoration: none;
-  color: #beffe4;
+  color: var(--textsub);
   border-radius: 10px;
 }
 
@@ -46,7 +46,7 @@ a {
   border: 0px;
   margin: 0px;
   padding: 0px;
-  background-color: rgba(0,0,0,0);
+  background-color: transparent;
   border-radius: 0px;
 }
 
@@ -57,10 +57,8 @@ a {
 
 .sketchThumbnail {
   position: absolute;
-  margin: 30px;
-  color: rgb(0,100,100);
+  color: transparent;
   outline: solid;
-  outline-width: 5px;
   height: 100%;
   width: 100%;
   object-fit:cover;
@@ -73,7 +71,6 @@ a {
 }
 
 .wholePageContainer{
-  border: 0px double #beffe4;
   background-color: rgba(0.5,0.5,0.5,0.3);
 }
 
