@@ -89,15 +89,20 @@ a {
   background-color:var(--accentcol)
 }
 
-.stdHalfCol.sketch{
+.stdFlex{
+  height:auto;
   width:auto;
+  padding:20px;
+  margin:0px;
+
   overflow: hidden;
   display: flex;
   flex-direction:column-reverse;
   align-items: center;
   justify-content: center;
-  margin:0px;
-  border:4px double #beffe4
+  
+  border:4px double var(--textmain);
+  background-color:var(--accentcol);
 }
 
 .stdBtn {
