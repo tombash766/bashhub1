@@ -96,7 +96,7 @@ a {
 }
 
 .stdFlex{
-  height:auto;
+  height:100%;
   width:auto;
   padding:20px;
   margin:0px;
@@ -136,4 +136,8 @@ a {
   background-color: transparent;
   border-radius: 0px;
   margin: 10px;
+}
+
+#frontPageContainer {
+  grid-template-columns: repeat(auto-fit,minmax(max(40%,280px),1fr));
 }
