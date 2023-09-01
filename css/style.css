@@ -116,6 +116,8 @@ a {
 .stdFlex.paper {
   margin:10px;
   height: 100%;
+  width: calc(50% - 40px);
+  display: inline-flex;
 }
 
 .stdBtn {
