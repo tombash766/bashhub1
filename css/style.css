@@ -92,8 +92,7 @@ a {
 .stdBlock.paper {
   overflow:hidden; 
   padding: 0px; 
-  width: min(500px, 100%); 
-  height: calc((min(500px, 100%) / 5) * 6)
+  width: min(500px, 100%);
 }
 
 .stdFlex{
@@ -128,9 +127,13 @@ a {
   display: inline-block;
 }
 
-#sketchesContainer{
+.stdContainer{
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit,minmax(max(0%,280px),1fr));
+  border: 0px;
+  padding: 0px;
+  background-color: transparent;
+  border-radius: 0px;
   margin: 10px;
 }
