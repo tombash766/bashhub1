@@ -8,7 +8,7 @@ function sketchesLoad(){
                 let newA = document.createElement("a");
                 newA.setAttribute("href", "https://openprocessing.org/sketch/" + currentSketch.visualID);
                 let newDiv = document.createElement("div");
-                newDiv.setAttribute("class", "stdFlex");
+                newDiv.setAttribute("class", "stdFlex sketch");
                 let newSpan = document.createElement("span");
                 newSpan.innerText = currentSketch.title;
                 let newImg = document.createElement("img");
